@@ -74,6 +74,6 @@ public class CustomSet<E> implements Set<E> {
         for (E element : map.keySet()) {
             System.out.print(element + " ");
         }
-        System.out.println(); // Add a new line after printing all elements
+        System.out.println( ); // Add a new line after printing all elements
     }
 }

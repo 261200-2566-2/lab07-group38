@@ -26,12 +26,12 @@ public class Main {
         set.add(8);
         set.add(9);
         set.add(10);
-        System.out.print("Set Elements: ");
+        System.out.print("Set Elements : ");
         set.printSet();
 
         // Using the iterator to iterate through the elements
         Iterator<Integer> iterator = set.iterator();
-        System.out.print("Set Elements using Iterator: ");
+        System.out.print("Set Elements using Iterator : ");
         while (iterator.hasNext()) {
             int element = iterator.next();
             System.out.print(element + " ");
@@ -40,7 +40,7 @@ public class Main {
 
         //Test Remove function
         set.remove(5);
-        System.out.print("Set Elements after remove 5: ");
+        System.out.print("Set Elements after remove 5 : ");
         set.printSet();
 
         //Test Size function
